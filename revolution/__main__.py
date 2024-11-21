@@ -13,5 +13,6 @@ if configurations_module is None:
 
 configurations = import_module(configurations_module)
 
+
 if __name__ == '__main__':
     main(configurations)
